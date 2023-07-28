@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="box-border m-0 p-0 font-poppins bg-pic h-screen bg-no-repeat bg-fill overflow-hidden max-w-5xl: overflow-y-scroll">
+    
+    <div class="container py-7 px-11">
+        <div class="curr-info flex flex-wrap justify-between">
+
+            <div class="date-container font-thin text-white">
+                <div class="time text-7xl">
+                    00:00 <span class="am-pm text-3xl ml-2">PM</span>
+                </div>
+                    <div class="date text-3xl mt-7">
+                        Day, -- Month
+                    </div>
+                
+                    <div class="curr-weather-item flex-col bg-[#18181b99] p-4 mt-3 mb-3 rounded-xl border-white border-2">
+                        
+                    </div>
+                    
+                
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search City..." class="rounded-lg cursor-pointer text-black">
+                <button>Search</button>
+            </div>
+
+            <div class="place-container text-end text-white">
+                <div class="time-zone text-3xl font-medium">Algiers/Algeria</div>
+                <div class="country text-sm font-bold">Africa</div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="future-forecast flex justify-center items-center bottom-0 w-full bg-[#18181b99] py-4 overflow-y-hidden text-white max-w-3xl: flex-row max-w-screen-2xl: overflow-x-scroll justify-start item-none">
+        <div class="today flex justify-center items-center border-white border-2 rounded-lg p-4 mx-1 py-16 px-16 bg-[#00000033]">
+            <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+            <div class="other">
+            <div class="day px-4 py-1 bg-[#3c3c44] rounded-xl text-center">Tuesday</div>
+            <div class="text-lg pt-4">Day ~ --&#176; C</div>
+            <div class="text-lg pt-4">Night ~ --&#176; C</div>
+        </div>
+        </div>
+
+        <div class="weather-forecast flex max-w-screen-lg:flex-row">
+            <div class="weather-forecast-item flex-col items-center justify-center border-white border-2 rounded-lg p-4 mx-3 bg-[#00000033]">
+                <div class="day  px-4 py-1 bg-[#3c3c44] rounded-2xl text-center">Wed</div>
+                <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                <div class="font-thin">Day ~ --&#176; C</div>
+                <div class="font-thin">Night ~ --&#176; C</div>
+            </div>
+            <div class="weather-forecast-item flex-col items-center justify-center border-white border-2 rounded-lg p-3 mx-4 bg-[#00000033]">
+                <div class="day  px-4 py-1 bg-[#3c3c44] rounded-2xl text-center">Thu</div>
+                <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                <div class="font-thin">Day ~ --&#176; C</div>
+                <div class="font-thin">Night ~ --&#176; C</div>
+            </div>
+            <div class="weather-forecast-item flex-col items-center justify-center border-white border-2 rounded-lg p-3 mx-4 bg-[#00000033]">
+                <div class="day  px-4 py-1 bg-[#3c3c44] rounded-2xl text-center">Fri</div>
+                <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                <div class="font-thin">Day ~ --&#176; C</div>
+                <div class="font-thin">Night ~ --&#176; C</div>
+            </div>
+            <div class="weather-forecast-item flex-col items-center justify-center border-white border-2 rounded-lg p-3 mx-4 bg-[#00000033]">
+                <div class="day  px-4 py-1 bg-[#3c3c44] rounded-2xl text-center">sat</div>
+                <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                <div class="font-thin">Day ~ --&#176; C</div>
+                <div class="font-thin">Night ~ --&#176; C</div>
+            </div>
+            <div class="weather-forecast-item flex-col items-center justify-center border-white border-2 rounded-lg p-3 mx-4 bg-[#00000033]">
+                <div class="day  px-4 py-1 bg-[#3c3c44] rounded-2xl text-center">Sun</div>
+                <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                <div class="font-thin">Day ~ --&#176; C</div>
+                <div class="font-thin">Night ~ --&#176; C</div>
+            </div>
+            <div class="weather-forecast-item flex-col items-center justify-center border-white border-2 rounded-lg p-3 mx-4 bg-[#00000033]">
+                <div class="day  px-4 py-1 bg-[#3c3c44] rounded-2xl text-center">Mon</div>
+                <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                <div class="font-thin">Day ~ --&#176; C</div>
+                <div class="font-thin">Night ~ --&#176; C</div>
+            </div>
+            <div class="weather-forecast-item flex-col items-center justify-center border-white border-2 rounded-lg p-3 mx-4 bg-[#00000033]">
+                <div class="day  px-4 py-1 bg-[#3c3c44] rounded-2xl text-center">Tue</div>
+                <img class="w-24" src="http://openweathermap.org/img/wn/01d@2x.png" alt="weather-icon">
+                <div class="font-thin">Day ~ --&#176; C</div>
+                <div class="font-thin">Night ~ --&#176; C</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js" integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
